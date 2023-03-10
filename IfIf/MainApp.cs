@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IfElse
+namespace IfIf
 {
     class MainApp
     {
@@ -9,13 +9,7 @@ namespace IfElse
             Console.WriteLine("숫자를 입력하세요. :");
 
             string input = Console.ReadLine();
-            int number = Int32.Parse(input);
-
-
-            string result = number % 2 == 0 ? "짝수" : "홀수";
-            Console.WriteLine(result);
-
-
+            int number = 
         }
     }
 }
