@@ -11,11 +11,8 @@ namespace IfElse
             string input = Console.ReadLine();
             int number = Int32.Parse(input);
 
-
             string result = number % 2 == 0 ? "짝수" : "홀수";
             Console.WriteLine(result);
-
-
         }
     }
 }
