@@ -20,18 +20,18 @@ namespace p161_ex3
                 case "10":
                 case "12":
                     Console.WriteLine($"{input}월은: 31일까지 있습니다.");
-                    return;
+                    break;
 
                 case "4":
                 case "6":
                 case "9":
                 case "11":
                     Console.WriteLine($"{input}월은: 30일까지 있습니다.");
-                    return;
+                    break;
 
                 case "2":
                     Console.WriteLine($"{input}월은: 28일까지 있습니다.");
-                    return;
+                    break;
 
                 default:
                     Console.WriteLine("정상적인 입력값이 아닙니다. 다시 실행하여 주세요.");
