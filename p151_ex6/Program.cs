@@ -15,9 +15,31 @@ namespace p151_ex6
             int grade = int.Parse(input1);
             int score = Convert.ToInt32(input2);
 
-            if(grade=4)
+            if (grade == 4)
             {
-                if(score>=70)
+                if (score >= 70)
+                {
+                    Console.WriteLine($"입력하신 점수 {score}는(은) 합격입니다.");
+                }
+                else
+                {
+                    Console.WriteLine($"입력하신 점수 {score}는(은) 불합격입니다.");
+                }
+            }
+            else
+            { 
+                if (score >= 60)
+                {
+                    Console.WriteLine($"입력하신 점수 {score}는(은) 합격입니다.");
+                }
+                else
+                {
+                    Console.WriteLine($"입력하신 점수 {score}는(은) 불합격입니다.");
+                }
+            }
+            if (score <0 && score>100)
+            {
+                Console.WriteLine("점수를 잘못입력하셨습니다. 확인 후 다시 입력해주세요.");
             }
         }
     }
